@@ -6,10 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forcast</title>
     <!--Bootstrap CSS CDN-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"
+    />
     <!-- Font Awesome CSS Icons (For cool glyphicons) -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!--Jumbotron-->
+    <div class="jumbotron">
+      <h1><strong>Weather Dashboard</strong></h1>
+    </div>
+    <div class="container">
+      <!--Row for searching -->
+      <div class="row">
+        <div class="col-sm-4 bg-light">
+          <!--Input form-->
+          <h4 class="search"><strong>Search for a City</strong></h4>
+          <!-- Textbox for searching -->
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" id="search-city" />
+            <div class="input-ground-append">
+              <button class="btn bg-primary text-light" id="search-button">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <!-- search history -->
+          <button class="btn btn-primary" type="button" id="clear-history">
+            Clear History
+          </button>
+          <ul class="list-group"></ul>
+        </div>
+        <div class="col-sm-8"></div>
+      </div>
+    </div>
+
+    <!--jQuery JS-->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+    <!--Code to Jvascript File-->
+    <script src="script.js"></script>
+  </body>
 </html>

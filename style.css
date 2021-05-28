@@ -1,25 +1,35 @@
-*{
-   box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-    font-size: 16px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+body {
+  font-size: 16px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgb(252, 247, 241);
 }
 
-h3{
-    font-weight: bold;
+.jumbotron {
+  background-color: #db6868;
+  color: antiquewhite;
+  text-align: center;
+  height: 1vh;
+  padding-top: 10px;
+  margin: 2px;
 }
 
-.forecast{
-    font-size: 1em;
+h3 {
+  font-weight: bold;
 }
 
-span{
-    font-size: 1em;
+.forecast {
+  font-size: 1em;
 }
 
-li:hover{
-    background-color: aliceblue;
-    text-decoration: underline;
+span {
+  font-size: 1em;
+}
+
+li:hover {
+  background-color: aliceblue;
+  text-decoration: underline;
 }
