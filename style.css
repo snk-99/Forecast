@@ -21,8 +21,23 @@ h3 {
   font-weight: bold;
 }
 
+.current-uv{
+    background-color: red;
+    color: antiquewhite;
+    padding: 10px 30px ;
+    border-radius: 7px;
+    margin-left: 5px;
+    
+}
+
+.FT{
+  background-color: rgb(35, 150, 245);
+  color: antiquewhite;
+  border-radius: 7px
+}
+
 .forecast {
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 span {
