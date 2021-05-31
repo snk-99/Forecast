@@ -21,23 +21,26 @@ h3 {
   font-weight: bold;
 }
 
-.current-uv{
-    background-color: red;
-    color: antiquewhite;
-    padding: 10px 30px ;
-    border-radius: 7px;
-    margin-left: 5px;
-    
-}
-
-.FT{
-  background-color: rgb(35, 150, 245);
+.current-uv {
+  background-color: red;
   color: antiquewhite;
-  border-radius: 7px
+  padding: 10px 20px;
+  border-radius: 7px;
+  margin-left: 5px;
 }
 
 .forecast {
   font-size: 0.9em;
+  background-color: rgb(40, 148, 236);
+  color: antiquewhite;
+  border-radius: 7px;
+  padding: 50px 30px;
+  margin: 10px;
+}
+.container {
+  display: flex;
+  padding-top: 50px;
+  padding-right: 100px;
 }
 
 span {
