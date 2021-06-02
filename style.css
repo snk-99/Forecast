@@ -39,8 +39,8 @@ h3 {
 }
 .container {
   display: flex;
-  padding-top: 50px;
-  padding-right: 100px;
+  padding-top: 80px;
+  justify-content: center;
 }
 
 span {
