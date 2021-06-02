@@ -26,4 +26,8 @@ THEN you're again presented with current and future conditions for that city
 
 # mockup
 
-image/Screen Shot 2021-06-02 at 5.02.08 PM.png
+<img width="1440" alt="Screen Shot 2021-06-02 at 5 02 08 PM" src="https://user-images.githubusercontent.com/81891066/120552030-b6094800-c3c4-11eb-99d1-8552f1e50824.png">
+
+# link
+
+https://snk-99.github.io/Forecast/
